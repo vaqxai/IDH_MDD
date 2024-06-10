@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>TranskacjeMDD</Database>
+    <Server>HELIOS\GAUSS</Server>
+    <ConnectionString>Data Source=HELIOS\GAUSS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>U93eEnBWmKrVtCQnzd2WTLomyMg=6/10/2024 00:13:276/9/2024 22:34:17</TimeStamp>
+        <ID>
+          <String>Knapinski</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>V89/7CuUlyVNT+7Mja3lckTxLT8=5/7/2024 19:51:306/9/2024 22:34:17</TimeStamp>
+        <ID>
+          <String>Knapinski</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eNpETsF2ELPYJwzDooGOO3zX3A4=6/10/2024 00:19:106/9/2024 22:34:17</TimeStamp>
+        <ID>
+          <String>Rodzaj Operacji</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>s1/3OIIUFI4aqyTEpoLbEarBIlw=6/10/2024 00:48:276/9/2024 22:34:17</TimeStamp>
+        <ID>
+          <String>Rachunek</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Kc2njrdLa/SMskKa/hkcbkemBGc=5/7/2024 20:15:456/9/2024 22:34:17</TimeStamp>
+        <ID>
+          <String>Czas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0IiOqmUtw8VSEmHg9nB1eHw4A2A=5/7/2024 20:15:456/9/2024 22:34:17</TimeStamp>
+        <ID>
+          <String>Oddzial Banku</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>dNpNCUHodZdv5fCyeqdkrQpaMsc=6/10/2024 00:19:106/9/2024 22:34:17AwO81R+OXl5JfShGVC88TpucEcw=5/7/2024 20:09:256/9/2024 22:34:17</TimeStamp>
+        <ID>
+          <String>Knapinski</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>NiJHNnsyEeSoCuCumFhxwrZN96U=6/9/2024 23:57:536/9/2024 22:34:17</TimeStamp>
+      <ID>
+        <String>TranskacjeMDD</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-06-09T22:49:03.956667Z</LastDeployed>
+</DeploymentSnapshot>

@@ -1,0 +1,254 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4cd497cb-613a-4996-af81-e5657da9ee2c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Rodzaj Operacji</ID>
+  <Name>Rodzaj Operacji</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4226" scrolltop="-9220" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="14208" y="27517" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="RodzajOperacji" left="-3182" top="-7196" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3704" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000780e0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_RodzajOperacji" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4226</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-9220</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-3182</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-7196</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="166">
+            <Shape Id="Id Rodzaju Operacji" Expanded="false">
+              <Attributes>
+                <Attribute Id="Id Rodzaju Operacji" />
+                <Attribute Id="Id Rodzaju Operacji T" />
+                <Attribute Id="Rodzaj Angielski" />
+                <Attribute Id="Typ Angielski" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Typ" Expanded="false">
+              <Attributes>
+                <Attribute Id="Typ" />
+              </Attributes>
+              <Position x="232" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d894b22e-61ee-48be-aab7-0d570448be2b">
+    <DataSourceViewID>Knapinski</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="572b668c-68a0-46ff-8eef-3de47c4bc59a">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="aaa9bc5e-e976-430e-b347-6b4913fe312e">
+      <ID>Id Rodzaju Operacji</ID>
+      <Name>Rodzaj</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d3e07be5-16b6-4a45-acb5-494fc3ee05e9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5c1adf6e-ce2b-4da6-9100-4a93ad8e0318">
+            <TableID>dbo_RodzajOperacji</TableID>
+            <ColumnID>IdRodzajuOperacji</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="03c923ab-24e3-4d01-aecc-8267246b0fde">
+        <DataType>WChar</DataType>
+        <DataSize>150</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="775ae1c2-31ba-4359-9cc7-1413859e94d9">
+          <TableID>dbo_RodzajOperacji</TableID>
+          <ColumnID>Rodzaj</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a2d60d0e-1a59-46bf-8031-0770d530ba2a">
+          <AttributeID>Id Rodzaju Operacji T</AttributeID>
+          <Name>Id Rodzaju Operacji T</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="00f3c84f-a396-486e-a8c9-652e4ae4cf8b">
+          <AttributeID>Rodzaj Angielski</AttributeID>
+          <Name>Rodzaj Angielski</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6d590cd9-3c29-479a-a206-dcd3b677b54f">
+          <AttributeID>Typ Angielski</AttributeID>
+          <Name>Typ Angielski</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="46c2fe48-b3c6-4e9f-860f-0b727abd6930">
+          <AttributeID>Typ</AttributeID>
+          <Name>Typ</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="db275ef4-8e3a-46b8-af60-61692d0c475b">
+          <AttributeID>Id Rodzaju Operacji 1</AttributeID>
+          <Name>Id Rodzaju Operacji</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c136fc25-b550-4569-91bc-21c00f6a56b6">
+      <ID>Id Rodzaju Operacji T</ID>
+      <Name>Id Rodzaju Operacji T</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="593d0a69-37fc-47b6-a8ca-760f34119dcb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7c3a7c2f-f548-4719-acc5-e310ebeb8dff">
+            <TableID>dbo_RodzajOperacji</TableID>
+            <ColumnID>IdRodzajuOperacjiT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="87d6cefd-4f44-46cc-9cba-84cd44f98d9c">
+      <ID>Rodzaj Angielski</ID>
+      <Name>Rodzaj Angielski</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="296c2910-c69a-48e7-89e5-e15aabfa8541">
+          <DataType>WChar</DataType>
+          <DataSize>150</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1a3efb6b-4402-415d-b9b4-0faf3d708a90">
+            <TableID>dbo_RodzajOperacji</TableID>
+            <ColumnID>RodzajAngielski</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="84207b8e-2eab-4655-9650-1a9546adc403">
+      <ID>Typ</ID>
+      <Name>Typ</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b187c334-dcc7-4af6-a4e3-1eae9c577fbf">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="796724a8-c614-448e-b59f-79ee2ffd995b">
+            <TableID>dbo_RodzajOperacji</TableID>
+            <ColumnID>Typ</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bf0896be-55b1-4243-ac33-e720d473392b">
+      <ID>Typ Angielski</ID>
+      <Name>Typ Angielski</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="62edbb1c-4f02-4899-8598-6db24206125f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32c55e3e-e07c-411d-8f20-eb2741a683cd">
+            <TableID>dbo_RodzajOperacji</TableID>
+            <ColumnID>TypAngielski</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ea766d75-def5-47cb-88f8-94d15eb22196">
+      <ID>Id Rodzaju Operacji 1</ID>
+      <Name>Id Rodzaju Operacji</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="856c24ba-d287-48c5-b884-2b07187c60ca">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="16512442-7812-4a11-abca-c927af611c92">
+            <TableID>dbo_RodzajOperacji</TableID>
+            <ColumnID>IdRodzajuOperacji</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="23e55fba-e6b0-45ce-b3f4-0baa0889fca1">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="3a80760d-f541-4819-b9bd-31e0fe0b06fd">
+          <ID>Typ</ID>
+          <Name>Typ</Name>
+          <SourceAttributeID>Typ</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="eef7524b-34c8-4d5f-a39e-64725be3588c">
+          <ID>Rodzaj</ID>
+          <Name>Rodzaj</Name>
+          <SourceAttributeID>Id Rodzaju Operacji</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
